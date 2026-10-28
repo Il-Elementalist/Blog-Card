@@ -1,6 +1,16 @@
-/* body {
+* {
+    font-family: "figtree", sans-serif;
+}
+
+body {
     background-color: hsl(47, 88%, 63%);
 }
+
+.blog-card {
+    background-color: white
+}
+/* 
+
 
 main {
     background-color: hsl(0, 0%, 100%);
