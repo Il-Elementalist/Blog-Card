@@ -61,6 +61,11 @@ button {
     padding-left: 10px;
     background-color: hsl(47, 88%, 63%)
 }
+
+#author-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%)
 /* 
 
 
