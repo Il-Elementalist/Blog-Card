@@ -65,32 +65,25 @@ button {
 #author-name {
     font-size: 14px;
     font-weight: 500;
-    color: hsl(0, 0%, 7%)
-/* 
-
-
-main {
-    background-color: hsl(0, 0%, 100%);
-    border: black 2px solid;
-    border-radius: 25px;
-    box-shadow: 6px 6px black;
-    margin-top: 12rem;
-    margin-left: 1.3rem;
-    width: 90%;
-    height: 40rem;
+    color: hsl(0, 0%, 7%);
 }
 
-.img-container img{
-   padding-left: 3rem;
-   margin-top: 1.5rem;
+h1:hover {
+    color: hsl(47, 88%, 63%);
 }
 
-.loading-button {
-    padding-left: 3rem;
-    padding-top: 1rem;
-}
 
-button {
-    background-color: hsl(47, 88%, 63%);
-    border-radius: 1.4px;
-} */
+
+@media only screen and (min-width: 1000px) {
+    .blog-card {
+        width: 384px;
+        height: 522px;
+        top: 219px;
+        left: 528px;
+    }
+
+    .img-container img {
+        width: 336px;
+        height: 200px;
+    }
+}
