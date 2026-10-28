@@ -54,6 +54,13 @@ h1 {
 .img-container img {
     width: 100%;
 }
+
+button {
+    width: 73px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: hsl(47, 88%, 63%)
+}
 /* 
 
 
