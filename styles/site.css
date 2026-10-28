@@ -1,7 +1,9 @@
+/* ALL SELECTORS */
 * {
-    font-family: "figtree", sans-serif;
+    font-family: "figtree", sans-serif;      /* USING FIGTREE FONT */
 }
 
+/* HTML ELEMENTS */
 body {
     background-color: hsl(47, 88%, 63%);
     max-width: 375px;
@@ -9,6 +11,30 @@ body {
     position: relative;
 }
 
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+button {
+    width: 73px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: hsl(47, 88%, 63%)
+}
+
+/* HTML ELEMENTS HOVER */
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+/* HTML CLASSES */
 .blog-card {
     width: 327px;
     height: 501px;
@@ -22,21 +48,10 @@ body {
     left: 20px;
 }
 
-p {
-    font-size: 16px;
-    color: hsl(0, 0%, 42%);
-}
-
 .loading-text {
     color: hsl(0, 0%, 7%);
     line-height: 150%;
     font-size: 12px;
-}
-
-h1 {
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 150%;
 }
 
 .blog-contents {
@@ -55,25 +70,18 @@ h1 {
     width: 100%;
 }
 
-button {
-    width: 73px;
-    height: 30px;
-    padding-left: 10px;
-    background-color: hsl(47, 88%, 63%)
-}
 
+/* HTML IDs SELECTORS */
 #author-name {
     font-size: 14px;
     font-weight: 500;
     color: hsl(0, 0%, 7%);
 }
 
-h1:hover {
-    color: hsl(47, 88%, 63%);
-}
 
 
 
+/* MEDIA QUERIES */
 @media only screen and (min-width: 1000px) {
     .blog-card {
         width: 384px;
